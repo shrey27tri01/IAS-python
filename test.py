@@ -40,13 +40,13 @@ for instruction in adddition:
     ias.instruction(instruction[0], instruction[1])
 
 #addition result
-print(ias.read('000000000100'))
+print(f"Result of addition: {ias.read('000000000100')}")
 print("----")
 
 for instruction in multiplication:
     ias.instruction(instruction[0], instruction[1])
 
 #multiplication result
-print(ias.read('000000000101'))
+print(f"Result of multiplication: {ias.read('000000000101')}")
 print("----")
 
