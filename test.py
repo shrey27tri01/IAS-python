@@ -3,8 +3,7 @@ Test the IAS machine
 This implements the addition and multiplication of two numbers 
 To test the machine, install python and make sure that both the IAS.py and test.py are in the same folder
 Then run the following commands in the terminal in the directory where the files are stored
-- pip3 install numpy
-- pip3 install bitstream
+- pip3 install -r requirements.txt
 - python3 test.py
 '''
 
